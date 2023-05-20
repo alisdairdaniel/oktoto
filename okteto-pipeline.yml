@@ -1,3 +1,3 @@
 deploy:
-  - okteto build -t okteto.dev/ctv:latest
+  - okteto build -t dev.okteto.com/persistent:latest
   - kubectl apply -f k8s
