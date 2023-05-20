@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: ctv
   annotations:
-    dev.okteto.com/persistent: "true"
+    dev.okteto.com/auto-ingress: "true"
 spec:
   type: ClusterIP  
   ports:
