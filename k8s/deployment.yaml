@@ -13,7 +13,7 @@ spec:
         app: ctv
     spec:
       containers:
-      - image: dev.okteto.com/persistent
+      - image: okteto.dev/okmi4:latest
         name: ctv
         ports:
         - containerPort: 8080
